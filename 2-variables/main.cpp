@@ -81,20 +81,47 @@ system("pause");
 float a, b, c, d, e;
 float avg;
 avg = a = b = c = d = e = 0.0f;
-int sum;
-int a;
-int b;
-int c;
-int d;
-int e;
 
-sum = a + b + c + d + e;
+std::cout << "whats the first vnumber" << std::endl;
+std::cin >> a;
+std::cout << "whats the second vnumber" << std::endl;
+std::cin >> b;
+std::cout << "whats the third vnumber" << std::endl;
+std::cin >> c;
+std::cout << "whats the fourth vnumber" << std::endl;
+std::cin >> d;
+std::cout << "whats the last vnumber" << std::endl;
+std::cin >> e;
+
+avg = (a + b + c + d + e) / 5.0f;
 
 std::cout << "Average of Five)" << std::endl;
 std::cout << a << "," << b << "," << c << "," << d << "," << e << std::endl;
 std::cout << "avg: " << avg << std::endl;
 
 system("pause");
+
+int x = 13;
+int y = 24;
+
+int temp = x;
+
+x = y;
+y = x;
+
+std::cout << "Number Swap)" << std::endl;
+std::cout << "x is " << x << std::endl;
+std::cout << "y is " << y << std::endl;
+
+system("pause");
+
+int age = -1;
+std::cout << "how old are you in years" << std::endl;
+std::cin >> age;
+
+std::cout << "Youve been alive for" << age << "years" << std::endl;
+std::cout << "thats" << age / 10 << "decades" << std::endl;
+std::cout << "thats" << age / 20 << "decades" << std::endl;
 
 
 return 0;

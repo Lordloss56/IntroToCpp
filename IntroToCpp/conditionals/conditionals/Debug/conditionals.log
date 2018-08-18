@@ -1,0 +1,3 @@
+﻿  Functions.cpp
+Functions.obj : error LNK2005: _main already defined in conditionals.obj
+C:\Users\s189077\source\repos\conditionals\Debug\conditionals.exe : fatal error LNK1169: one or more multiply defined symbols found

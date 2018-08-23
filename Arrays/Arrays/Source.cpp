@@ -15,7 +15,8 @@ int main()
 {
 	
 	//create an int array
-	int numbers[] = {1,2,3,4,5};
+	int values[] = {1,2,3,4,5};
+	int repeated[] = { 5,4,4,3,2,1,12,12,12 };
 	
 	printNumbers(values, 5);
 	int sum = sumNumbers(values, 5);
@@ -83,5 +84,8 @@ int main()
 		return largest;
 	}
 
+	int indx = findIndex(values, 5, 3, 0);
+
+	int appearances = countElement(repeated, 9, -7, 0);
 	return 0;
 }
